@@ -1,2 +1,1 @@
-# Gan
-微信项目
+# gan_weixin_all
