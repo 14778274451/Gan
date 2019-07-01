@@ -1,8 +1,8 @@
 # 配置MySQL数据库的连接参数
 spring:
    datasource:
-      url: jdbc:mysql://127.0.0.1:3306/gan?useSSL=false&serverTimezone=CST&allowPublicKeyRetrieval=true
-      username: gan_3
+      url: jdbc:mysql://127.0.0.1:3306/gan_3?useSSL=false&serverTimezone=CST&allowPublicKeyRetrieval=true
+      username: gan
       password: 1234
    
    # 配置Redis的连接信息
