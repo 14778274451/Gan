@@ -94,9 +94,6 @@ public class TokenManagerImpl implements TokenManager {
 	}
 
 	public ResponseToken getRemoteToken(String account) {
-		// 此时目前不考虑任何的具体实现，只是简单获取一下令牌，也不缓存，每次都获取。
-		// 实际项目绝对不能这样干，因为获取令牌的接口每天最多能够调用2000次（每个appid）。
-		// 这里现在暂时为了简化而不考虑缓存，后面会进行重构。
 
 		String appid = "wx6527e12d79c284c9";
 		String appsecret = "efe1bd0b5876148f43dac0449fd91abd";
