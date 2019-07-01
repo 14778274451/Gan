@@ -1,1 +1,1 @@
-# gan_weixin_all
+# wx_gan
